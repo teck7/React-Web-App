@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Stateful from './components/Stateful'
 import Stateless from './components/Stateless'
+import Header from './components/Header'
 
 
 class App extends Component {
@@ -10,6 +11,7 @@ class App extends Component {
         <h1>Hello World</h1>
         <Stateful />
         <Stateless />
+        <Header />
       </div>
     );
   }
