@@ -10,7 +10,9 @@ This is a React Web Application. Further comments would be made on this section
 5. Watch your browser launch the application on localhost:3000
 
 
-### Create Components Template
-- Stateful
-- Stateless
-- SetState
+### Create Components Templates
+- Stateful    (**_Refer to Stateful.js_**)
+- Stateless   (**_Refer to Stateless.js_**)
+- Passing props between Stateful & Stateless Components   (**_Refer to Header.js and HeaderContent.js_**)
+- SetState    (**_Refer to SetState.js_**)   
+- Mother(Stateful) & Children(Stateless) Components     (**_Refer to Mother.js / ChildrenText.js / ChildrenNumber.js_**)

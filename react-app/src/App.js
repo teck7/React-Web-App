@@ -3,7 +3,7 @@ import Stateful from './components/Stateful'
 import Stateless from './components/Stateless'
 import Header from './components/Header'
 import SetState from './components/SetState'
-
+import Mother from './components/Mother'
 
 class App extends Component {
   render() {
@@ -14,6 +14,7 @@ class App extends Component {
         <Stateless />
         <Header />
         <SetState />
+        <Mother />
       </div>
     );
   }
