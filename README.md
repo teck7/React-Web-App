@@ -13,3 +13,4 @@ This is a React Web Application. Further comments would be made on this section
 ### Create Components Template
 - Stateful
 - Stateless
+- SetState

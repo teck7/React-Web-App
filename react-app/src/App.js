@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Stateful from './components/Stateful'
 import Stateless from './components/Stateless'
 import Header from './components/Header'
+import SetState from './components/SetState'
 
 
 class App extends Component {
@@ -12,6 +13,7 @@ class App extends Component {
         <Stateful />
         <Stateless />
         <Header />
+        <SetState />
       </div>
     );
   }
