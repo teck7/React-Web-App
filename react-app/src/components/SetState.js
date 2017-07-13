@@ -32,7 +32,7 @@ class SetState extends React.Component {
         <input type="text"
                onChange={this.updateStateText.bind(this)}
         />
-        <input type="text"
+        <input type="number"
                onChange={this.updateStateNumber.bind(this)}
         />
       </div>
