@@ -5,6 +5,7 @@ import Header from './components/Header'
 import SetState from './components/SetState'
 import Mother from './components/Mother'
 import ButtonMother from './components/ButtonMother'
+import MotherRefactor from './components/MotherRefactor'
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
         <SetState />
         <Mother />
         <ButtonMother />
+        <MotherRefactor />
       </div>
     );
   }

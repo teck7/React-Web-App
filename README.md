@@ -16,4 +16,5 @@ This is a React Web Application. Further comments would be made on this section
 - Passing props between Stateful & Stateless Components   (**_Refer to Header.js and HeaderContent.js_**)
 - SetState    (**_Refer to SetState.js_**)   
 - Mother(Stateful) & Children(Stateless) Components     (**_Refer to Mother.js / ChildrenText.js / ChildrenNumber.js_**)
-- Pssing props between Stateful & Stateless Button Components   (**_Refer to ButtonMother.js / ButtonChildren.js / ButtonIcon.js_**)
+- Passing props between Stateful & Stateless Button Components   (**_Refer to ButtonMother.js / ButtonChildren.js / ButtonIcon.js_**)
+- Mother(Stateful) Refactor   (**_Refer to MotherRefactor.js_**)

@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Children = (props) =>
+const ChildrenNumber = (props) =>
 
   <input type="Number"
          onChange={props.updateStateNumber}
   />
 
-export default Children
+export default ChildrenNumber
