@@ -1,15 +1,16 @@
 import React from 'react';
 import { Line } from 'rc-progress';
+import ChildrenProgress from './ChildrenProgress'
+import ChildrenProgressRestart from './ChildrenProgressRestart'
 
 class ProgressBar extends React.Component {
   constructor() {
     super();
     this.state = {
       percent: 0,
-      color: '#3FC7FA',
     };
-    this.changeState = this.changeState.bind(this);
-    this.restart = this.restart.bind(this);
+    //this.changeState = this.changeState.bind(this);
+    //this.restart = this.restart.bind(this);
   }
 
   changeState(value) {
@@ -35,13 +36,14 @@ class ProgressBar extends React.Component {
       <div>
         <h3>Line Progress {this.state.percent}%</h3>
         <div style={containerStyle}>
-          <Line percent={this.state.percent} strokeWidth="4"
+          <Line percent={this.state.percent} trailWidth="4"
+                                             strokeWidth="4"
                                              strokeColor={this.state.color}
                                              strokeLinecap="round" 	/>
         </div>
         <p>
-          <button onClick={this.changeState}>Change State</button>
-          <button onClick={this.restart}>Restart</button>
+          <ChildrenProgress changeState={this.changeState.bind(this)} />
+          <ChildrenProgressRestart restart={this.restart.bind(this)} />
         </p>
       </div>
     );
