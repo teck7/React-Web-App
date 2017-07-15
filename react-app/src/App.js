@@ -6,6 +6,7 @@ import SetState from './components/SetState'
 import Mother from './components/Mother'
 import ButtonMother from './components/ButtonMother'
 import MotherRefactor from './components/MotherRefactor'
+import ProgressBar from './components/ProgressBar'
 
 class App extends Component {
   render() {
@@ -19,6 +20,7 @@ class App extends Component {
         <Mother />
         <ButtonMother />
         <MotherRefactor />
+        <ProgressBar />
       </div>
     );
   }

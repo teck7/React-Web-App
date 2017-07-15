@@ -18,3 +18,4 @@ This is a React Web Application. Further comments would be made on this section
 - Mother(Stateful) & Children(Stateless) Components     (**_Refer to Mother.js / ChildrenText.js / ChildrenNumber.js_**)
 - Passing props between Stateful & Stateless Button Components   (**_Refer to ButtonMother.js / ButtonChildren.js / ButtonIcon.js_**)
 - Mother(Stateful) Refactor   (**_Refer to MotherRefactor.js_**)
+- ProgressBar   (**_Refer to ProgressBar.js_**)
